@@ -1,5 +1,5 @@
 {
-  "name": "nodeguard-cli",
+  "name": "@geekyashmittal/nodeguard",
   "version": "1.0.0",
   "description": "Interactive CLI tool to analyze and safely clean node_modules folders",
   "main": "dist/index.js",

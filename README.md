@@ -1,20 +1,31 @@
 # 🧠 NodeGuard CLI
 
+![npm](https://img.shields.io/npm/v/@geekyashmittal/nodeguard)
+
 NodeGuard is a powerful CLI tool to analyze and safely clean `node_modules` folders in your workspace.
+
+---
 
 ## ✨ Features
 
-- 📦 Scan all `node_modules` recursively
+- 📦 Recursively scan all `node_modules`
 - 📊 Show total disk usage
 - 🧹 Clean by project name
 - ⏳ Clean by age
-- 🛡 Dry run mode
+- 🛡 Dry-run mode (safe preview)
 - 🎨 Interactive TUI Dashboard
-- 🔍 Search filtering
+- 🔍 Live search filtering
 - 📈 Sorted by size (largest first)
-- 🎯 Multi-select delete
+- 🎯 Multi-select delete with confirmation
 
 ---
+
+## 📦 Installation
+
+### Install globally (Recommended)
+
+```bash
+npm install -g @geekyashmittal/nodeguard
 
 ## 📦 Installation (Local Development)
 
