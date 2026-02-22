@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "type": "commonjs",
   "bin": {
-    "nodeguard": "./bin/nodeguard.js"
+    "nodeguard": "bin/nodeguard.js"
   },
   "files": [
     "dist",
@@ -46,11 +46,11 @@
     "typescript": "^5.9.3"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/Geekyash10/NodeGuard_CLI.git"
-},
-"bugs": {
-  "url": "https://github.com/Geekyash10/NodeGuard_CLI/issues"
-},
-"homepage": "https://github.com/Geekyash10/NodeGuard_CLI#readme"
+    "type": "git",
+    "url": "https://github.com/Geekyash10/NodeGuard_CLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Geekyash10/NodeGuard_CLI/issues"
+  },
+  "homepage": "https://github.com/Geekyash10/NodeGuard_CLI#readme"
 }
