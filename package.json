@@ -1,0 +1,48 @@
+{
+  "name": "nodeguard-cli",
+  "version": "1.0.0",
+  "description": "Interactive CLI tool to analyze and safely clean node_modules folders",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "bin": {
+    "nodeguard": "./bin/nodeguard.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "node_modules",
+    "cleanup",
+    "disk",
+    "developer-tools"
+  ],
+  "author": "Yash Mittal",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "fs-extra": "^11.3.3",
+    "inquirer": "^13.2.5",
+    "pretty-bytes": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.27",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^25.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
