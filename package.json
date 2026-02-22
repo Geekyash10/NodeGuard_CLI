@@ -44,5 +44,13 @@
     "@types/node": "^25.3.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/Geekyash10/NodeGuard_CLI.git"
+},
+"bugs": {
+  "url": "https://github.com/Geekyash10/NodeGuard_CLI/issues"
+},
+"homepage": "https://github.com/Geekyash10/NodeGuard_CLI#readme"
 }
